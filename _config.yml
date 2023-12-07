@@ -8,28 +8,21 @@ description: "Dvir Lafer - Applied Data Scientist freelancer. From POC and acdem
 
 
 # Team names, titles and social links
-# people:
-# - name: Kay Garland
-#   pic: 1
-#   position: Lead Designer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: stack-overflow
-#       url: #
+people:
+- name: Dvir Lafer
+  pic: dvir-lafer-cropped
+  social:
+    - title: github
+      url: http://github.com/dvirla
+    - title: linkedin
+      url: https://www.linkedin.com/in/dvir-lafer/
+    - title: facebook
+      url: https://www.facebook.com/dvir.lafer
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  # - title: twitter
-  #   url: http://twitter.com/jekyllrb
   - title: facebook
     url: https://www.facebook.com/dvir.lafer
-  # - title: stack-overflow
-  #   url: http://stackoverflow.com/questions/tagged/jekyll
-  # - title: bitbucket 
-  #   url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/dvirla
   - title: linkedin
