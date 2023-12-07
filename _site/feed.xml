@@ -5,20 +5,20 @@
     <description>Dvir Lafer - Applied Data Scientist freelancer. From POC and acdemic researched to deployed AI models, I will help you unleash the insights from your data using variuos AI models.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 07 Dec 2023 18:48:01 +0200</pubDate>
-    <lastBuildDate>Thu, 07 Dec 2023 18:48:01 +0200</lastBuildDate>
+    <pubDate>Fri, 08 Dec 2023 01:33:29 +0200</pubDate>
+    <lastBuildDate>Fri, 08 Dec 2023 01:33:29 +0200</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
-        <title>Dreams</title>
+        <title>Advanced Statistical Analysis</title>
         <description>
 </description>
-        <pubDate>Fri, 18 Jul 2014 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/web%20development/2014/07/18/project-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/web%20development/2014/07/18/project-1/</guid>
+        <pubDate>Fri, 18 Jun 2021 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/predictive%20analysis/2021/06/18/project-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/predictive%20analysis/2021/06/18/project-1/</guid>
         
         
-        <category>Web Development</category>
+        <category>Predictive Analysis</category>
         
       </item>
     

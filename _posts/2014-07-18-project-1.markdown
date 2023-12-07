@@ -1,15 +1,14 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Advanced Statistical Analysis
+subtitle: Predictive Analysis
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+date: 2021-06-18
+img: bmi-distribution.png
+thumbnail: bmi-distribution.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+project-date: June 2021
+client:
+category: Predictive Analysis
+description: "Analyzing the Framingham Heart Study dataset using advanced methods such as: statistical tests, bayesian inference, missing data imputations, etc."
 ---
