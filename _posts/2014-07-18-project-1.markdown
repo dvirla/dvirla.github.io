@@ -8,7 +8,9 @@ img: bmi-distribution.png
 thumbnail: bmi-distribution.png
 alt: image-alt
 project-date: June 2021
-client:
+client: Confidential
 category: Predictive Analysis
 description: "Analyzing the Framingham Heart Study dataset using advanced methods such as: statistical tests, bayesian inference, missing data imputations, etc."
+read_more: "Read More"
+read_more_link: "https://dvirla.github.io/applied-data-scientist-blog/advanced-analytical-analysis-usecase/"
 ---
