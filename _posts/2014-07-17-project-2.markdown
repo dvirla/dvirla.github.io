@@ -1,15 +1,16 @@
 ---
-title: Escape
-subtitle: Website Design
+title: Fine-tune T5 Mode
+subtitle:  Machine & Deep Learning Solutions
 layout: default
-modal-id: 2
-date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+modal-id: 1
+date: 2021-08-18
+img: T5.png
+thumbnail: T5.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+project-date: June 2021
+client: Confidential
+category: Machine & Deep Learning Solutions
+description: "Fine-tuning T5 LLM to balance textual dataset."
+read_more: "Read More"
+read_more_link: "https://dvirla.github.io/applied-data-scientist-blog/using-T5-to-balance-textual-dataset/"
 ---
