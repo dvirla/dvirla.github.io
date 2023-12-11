@@ -5,7 +5,7 @@ layout: default
 modal-id: 2
 date: 2021-08-18
 img: T5.png
-thumbnail: T5.png
+# thumbnail: T5.png
 alt: image-alt
 project-date: June 2021
 client: Confidential
