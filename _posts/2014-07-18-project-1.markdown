@@ -5,7 +5,7 @@ layout: default
 modal-id: 1
 date: 2021-06-18
 img: bmi-distribution.png
-thumbnail: bmi-distribution.png
+thumbnail: bmi-distribution-thumbnail.png
 alt: image-alt
 project-date: June 2021
 client: Confidential
