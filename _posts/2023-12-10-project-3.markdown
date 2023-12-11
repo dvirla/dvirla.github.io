@@ -1,15 +1,15 @@
 ---
-# title: Active Reinforcement Learning
-# subtitle:  Data-driven Decision Support Systems
+title: Reinforcement Learning
+subtitle:  Data-driven Decision Support
 layout: default
 modal-id: 3
 date: 2022-03-20
 img: mcts.png
-# thumbnail: mcts.png
+thumbnail: mcts.png
 alt: image-alt
 project-date: March 2022
 client: Confidential
-# category: Data-driven Decision Support Systems
+category: Data-driven Decision Support
 description: "Implementing, adjusting and comparing 3 multi-armed bandits (reinforcement learning settings) algorithms' performances."
 read_more: ""
 read_more_link: ""
