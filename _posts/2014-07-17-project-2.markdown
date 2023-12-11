@@ -2,7 +2,7 @@
 title: Fine-tune T5 Mode
 subtitle:  Machine & Deep Learning Solutions
 layout: default
-modal-id: 1
+modal-id: 2
 date: 2021-08-18
 img: T5.png
 thumbnail: T5.png
