@@ -5,46 +5,40 @@
     <description>Dvir Lafer - Applied Data Scientist freelancer. From POC and acdemic researched to deployed AI models, I will help you unleash the insights from your data using variuos AI models.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 11 Dec 2023 23:23:59 +0200</pubDate>
-    <lastBuildDate>Mon, 11 Dec 2023 23:23:59 +0200</lastBuildDate>
+    <pubDate>Mon, 11 Dec 2023 23:32:26 +0200</pubDate>
+    <lastBuildDate>Mon, 11 Dec 2023 23:32:26 +0200</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
-        <title>Active Reinforcement Learning</title>
+        <title>Project 3</title>
         <description>
 </description>
         <pubDate>Sun, 20 Mar 2022 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/data-driven%20decision%20support%20systems/2022/03/20/project-3/</link>
-        <guid isPermaLink="true">http://localhost:4000/data-driven%20decision%20support%20systems/2022/03/20/project-3/</guid>
+        <link>http://localhost:4000/2022/03/20/project-3/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/03/20/project-3/</guid>
         
-        
-        <category>Data-driven Decision Support Systems</category>
         
       </item>
     
       <item>
-        <title>Fine-tune T5 Mode</title>
+        <title>Project 2</title>
         <description>
 </description>
         <pubDate>Wed, 18 Aug 2021 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/machine%20&%20deep%20learning%20solutions/2021/08/18/project-2/</link>
-        <guid isPermaLink="true">http://localhost:4000/machine%20&%20deep%20learning%20solutions/2021/08/18/project-2/</guid>
+        <link>http://localhost:4000/2021/08/18/project-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/08/18/project-2/</guid>
         
-        
-        <category>Machine &amp; Deep Learning Solutions</category>
         
       </item>
     
       <item>
-        <title>Advanced Statistical Analysis</title>
+        <title>Project 1</title>
         <description>
 </description>
         <pubDate>Fri, 18 Jun 2021 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/predictive%20analysis/2021/06/18/project-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/predictive%20analysis/2021/06/18/project-1/</guid>
+        <link>http://localhost:4000/2021/06/18/project-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/06/18/project-1/</guid>
         
-        
-        <category>Predictive Analysis</category>
         
       </item>
     
