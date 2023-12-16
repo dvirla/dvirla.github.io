@@ -1,32 +1,59 @@
-url: https://dvirla.github.io
-# baseurl: /applied-data-scientist-portfolio
+url: https://y7kim.github.io
+baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Dvir Lafer - Applied Data Scientist
-email: dvirla84@gmail.com
-description: "Dvir Lafer - Applied Data Scientist freelancer. From POC and acdemic researched to deployed AI models, I will help you unleash the insights from your data using variuos AI models."
+title: Awesome Title
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Dvir Lafer
-  pic: dvir-lafer-cropped
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
   social:
-    - title: github
-      url: http://github.com/dvirla
-    - title: linkedin
-      url: https://www.linkedin.com/in/dvir-lafer/
+    - title: twitter
+      url: #
     - title: facebook
-      url: https://www.facebook.com/dvir.lafer
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
   - title: facebook
-    url: https://www.facebook.com/dvir.lafer
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/dvirla
-  - title: linkedin
-    url: https://www.linkedin.com/in/dvir-lafer/
+    url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:

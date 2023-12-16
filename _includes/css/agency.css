@@ -267,9 +267,9 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #FFB200;
+    color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/home-page-3.png');
+    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -664,11 +664,6 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: #fff;
-}
-
-section#contact .section-text {
-    font-size: 20px;
     color: #fff;
 }
 
