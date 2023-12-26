@@ -11,6 +11,6 @@ project-date: March 2022
 client: Confidential
 category: Data-driven Decision Support
 description: "Implementing, adjusting and comparing 3 multi-armed bandits (reinforcement learning settings) algorithms' performances."
-read_more: ""
-read_more_link: ""
+read_more: "Read More"
+read_more_link: "https://dvirla.github.io/applied-data-scientist-blog/active-reinforcement-learning/"
 ---
