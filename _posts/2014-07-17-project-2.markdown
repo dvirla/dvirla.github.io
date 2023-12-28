@@ -4,8 +4,8 @@ subtitle:  ML & DL Solutions
 layout: default
 modal-id: 2
 date: 2021-08-18
-img: T5.png
-thumbnail: T5-thumbnail.png
+img: T5.avif
+thumbnail: T5-thumbnail.avif
 alt: image-alt
 project-date: June 2021
 client: Confidential

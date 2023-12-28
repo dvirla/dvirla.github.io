@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #ffbb00;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/home-page-3.png');
+    background-image: url('{{ site.baseurl }}/img/home-page-3.avif');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -658,7 +658,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/map-image.avif');
     background-position: center;
     background-repeat: no-repeat;
 }

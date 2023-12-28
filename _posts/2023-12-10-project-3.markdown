@@ -4,8 +4,8 @@ subtitle:  Data-driven Decision Support
 layout: default
 modal-id: 3
 date: 2022-03-20
-img: mcts.png
-thumbnail: mcts-thumbnail.png
+img: mcts.avif
+thumbnail: mcts-thumbnail.avif
 alt: image-alt
 project-date: March 2022
 client: Confidential
