@@ -24,7 +24,7 @@
                         <ul class="list-inline social-buttons col-lg-8 col-lg-offset-2 text-center">
                             {% for network in member.social %}
                             <li>
-                                <a href="{{ network.url }}" target="_blank">
+                                <a href="{{ network.url }}" target="_blank" aria-label="Link to {{member.name}}'s {{network.title}}">
                                     <i class="fa fa-{{ network.title }}"></i>
                                 </a>
                             </li>
