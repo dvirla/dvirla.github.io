@@ -1,0 +1,14 @@
+---
+title: Phytoplankton Biomass Prediction
+subtitle: Predictive Analysis
+layout: default
+modal-id: 5
+date: 2023-04-01
+img: phyto.jpg
+thumbnail: phyto.jpg
+alt: image-alt
+project-date: April 2023
+client: Israel Oceanographic and Limnological Research (IOLR)
+category: Predictive Analysis
+description: "Utilizing fluorescense data from Lake Kinnert to extract relevant data for predicting the biomass of Phytoplankton at any depth and time of fluorescence measurement."
+---

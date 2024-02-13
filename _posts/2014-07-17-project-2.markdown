@@ -8,7 +8,7 @@ img: T5.avif
 thumbnail: T5-thumbnail.avif
 alt: image-alt
 project-date: June 2021
-client: Confidential
+client: The Technion
 category: ML & DL Solutions
 description: "Fine-tuning T5 LLM to balance textual dataset."
 read_more: "Read more about fine-tuning T5 model and its applications"

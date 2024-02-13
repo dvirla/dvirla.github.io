@@ -8,7 +8,7 @@ img: mcts.avif
 thumbnail: mcts-thumbnail.avif
 alt: image-alt
 project-date: March 2022
-client: Confidential
+client: The Technion
 category: Data-driven Decision Support
 description: "Implementing, adjusting and comparing 3 multi-armed bandits (reinforcement learning settings) algorithms' performances."
 read_more: "Read more about active reinforcement learning as decision assiting tool"
