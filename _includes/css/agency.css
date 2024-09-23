@@ -263,7 +263,7 @@ header {
     text-align: center;
     color: #ffbb00;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/home-page-3.avif');
+    background-image: url('{{ site.baseurl }}/img/homepage.jpeg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
