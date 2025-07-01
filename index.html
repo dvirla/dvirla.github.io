@@ -1,20 +1,369 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dvir Lafer - AI Researcher & Builder</title>
+    <meta name="description" content="Applied Data Scientist, Published Researcher, and AI Application Developer building AI for real-world impact">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-blue-100 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-xl font-bold text-blue-900">Dvir Lafer</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-blue-700 hover:text-blue-900 transition-colors">About</a>
+                    <a href="#research" class="text-blue-700 hover:text-blue-900 transition-colors">Research</a>
+                    <a href="#projects" class="text-blue-700 hover:text-blue-900 transition-colors">Projects</a>
+                    <a href="#blog" class="text-blue-700 hover:text-blue-900 transition-colors">Blog</a>
+                    <a href="#contact" class="text-blue-700 hover:text-blue-900 transition-colors">Contact</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-blue-700">
+                        <i data-lucide="menu"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-4">
+                <a href="#about" class="block text-blue-700 hover:text-blue-900 transition-colors">About</a>
+                <a href="#research" class="block text-blue-700 hover:text-blue-900 transition-colors">Research</a>
+                <a href="#projects" class="block text-blue-700 hover:text-blue-900 transition-colors">Projects</a>
+                <a href="#blog" class="block text-blue-700 hover:text-blue-900 transition-colors">Blog</a>
+                <a href="#contact" class="block text-blue-700 hover:text-blue-900 transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-<div class="home">
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="flex-1 text-center lg:text-left">
+                    <h1 class="text-4xl lg:text-6xl font-bold text-blue-900 leading-tight mb-6">
+                        Building AI for
+                        <span class="text-blue-600"> Real-World Impact</span>
+                    </h1>
+                    <p class="text-xl text-blue-700 mb-8">
+                        Applied Data Scientist | Published Researcher | AI Application Developer
+                    </p>
+                    <p class="text-lg text-slate-600 mb-8 max-w-2xl">
+                        Passionate about bridging cutting-edge AI research with practical solutions that enhance human wellbeing and create meaningful impact.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#projects" class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center justify-center">
+                            Explore My Work
+                        </a>
+                        <a href="#contact" class="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-50 transition-colors inline-flex items-center justify-center">
+                            Let's Connect
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-shrink-0">
+                    <div class="w-64 h-64 lg:w-80 lg:h-80 rounded-full bg-gradient-to-br from-blue-200 to-blue-400 flex items-center justify-center overflow-hidden">
+                        <div class="w-56 h-56 lg:w-72 lg:h-72 rounded-full bg-white flex items-center justify-center text-6xl text-blue-600">
+                            👨‍💻
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <h1>Posts</h1>
+    <!-- About Section -->
+    <section id="about" class="py-16 px-4 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl lg:text-4xl font-bold text-blue-900 text-center mb-12">About Me</h2>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold text-blue-800 mb-4">What Drives Me</h3>
+                    <div class="space-y-4 text-slate-700">
+                        <p>As an applied data scientist, I'm passionate about translating complex ML/NLP concepts into practical solutions that make a real difference in people's lives.</p>
+                        <p>I believe AI should enhance human potential rather than replace it. This philosophy guides everything I build - from optimizing ML pipelines for real-world deployment to developing AI applications focused on human wellbeing.</p>
+                        <p>Inspired by the next generation, I'm committed to building technology that creates a better future for our children and families.</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl font-bold text-blue-800 mb-4">Technical Expertise</h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-white p-4 rounded-lg border border-blue-100">
+                            <h4 class="font-semibold text-blue-900 mb-2">Core Skills</h4>
+                            <ul class="text-sm text-slate-600 space-y-1">
+                                <li>• Natural Language Processing</li>
+                                <li>• Large Language Models</li>
+                                <li>• Computer Vision</li>
+                                <li>• Reinforcement Learning</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg border border-blue-100">
+                            <h4 class="font-semibold text-blue-900 mb-2">Tools & Frameworks</h4>
+                            <ul class="text-sm text-slate-600 space-y-1">
+                                <li>• Python, PyTorch</li>
+                                <li>• TensorFlow, scikit-learn</li>
+                                <li>• MLOps & Deployment</li>
+                                <li>• Research & Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    <!-- Research Section -->
+    <section id="research" class="py-16 px-4 bg-gradient-to-br from-blue-50 to-slate-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl lg:text-4xl font-bold text-blue-900 text-center mb-12">Research & Publications</h2>
+            
+            <div class="bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl border border-blue-100 mb-8">
+                <div class="flex items-start gap-6">
+                    <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                        <i data-lucide="book-open" class="w-6 h-6 text-white"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-blue-900 mb-2">
+                            Improving Fluoroprobe Sensor Performance Through Machine Learning
+                        </h3>
+                        <p class="text-blue-700 mb-3">Co-authored with Ofir Tal</p>
+                        <p class="text-slate-600 mb-4">
+                            Demonstrated the power of AI in interdisciplinary applications by applying machine learning techniques to optimize biological marker detection, showcasing how AI can enhance scientific instrumentation and measurement accuracy.
+                        </p>
+                        <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors">
+                            View Publication <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-blue-50 p-6 rounded-lg">
+                    <h3 class="text-lg font-bold text-blue-900 mb-3">Current Research Interests</h3>
+                    <ul class="text-slate-600 space-y-2">
+                        <li>• Advanced NLP techniques for real-world deployment</li>
+                        <li>• Efficient AI systems and optimization</li>
+                        <li>• Multi-Armed Bandits and Reinforcement Learning</li>
+                        <li>• Interdisciplinary AI applications</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-blue-50 p-6 rounded-lg">
+                    <h3 class="text-lg font-bold text-blue-900 mb-3">Research Philosophy</h3>
+                    <p class="text-slate-600">
+                        I believe in bridging the gap between academic research and practical implementation. My work focuses on making cutting-edge AI techniques accessible and applicable to real-world challenges.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</div>
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 px-4 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl lg:text-4xl font-bold text-blue-900 text-center mb-12">Current Projects</h2>
+            
+            <div class="grid lg:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
+                            <i data-lucide="brain" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-blue-900">AI-Powered Personal Development</h3>
+                            <span class="text-sm bg-blue-100 text-blue-700 px-2 py-1 rounded-full">In Development</span>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 mb-4">
+                        Building an AI assistant focused on human wellbeing and personal growth. Exploring innovative applications of NLP for helping people maintain balance and achieve their goals through intelligent, personalized guidance.
+                    </p>
+                    <div class="flex items-center text-blue-600">
+                        <span class="text-sm">Beta coming soon</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
+                            <i data-lucide="heart" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-blue-900">Creative AI for Families</h3>
+                            <span class="text-sm bg-blue-100 text-blue-700 px-2 py-1 rounded-full">In Development</span>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 mb-4">
+                        Developing AI solutions that strengthen family connections and support child development. Currently working on creative applications that help parents engage with their children through technology in meaningful ways.
+                    </p>
+                    <div class="flex items-center text-blue-600">
+                        <span class="text-sm">Early access available</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <p class="text-slate-600 mb-6">
+                    Both projects are currently in stealth mode with beta testing in progress. 
+                    Interested in learning more or participating in early testing?
+                </p>
+                <a href="#contact" class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-16 px-4 bg-gradient-to-br from-blue-50 to-slate-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl lg:text-4xl font-bold text-blue-900 text-center mb-12">Latest Writing</h2>
+            
+            <div class="grid lg:grid-cols-2 gap-8 mb-12">
+                <article class="bg-white p-8 rounded-xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-sm bg-blue-100 text-blue-700 px-3 py-1 rounded-full">Technical Deep Dive</span>
+                        <span class="text-sm text-slate-500">March 2025</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-900 mb-3 hover:text-blue-700 transition-colors cursor-pointer">
+                        Optimizing ML Pipelines for Production: Lessons from the Field
+                    </h3>
+                    <p class="text-slate-600 mb-4">
+                        Sharing practical insights on deploying machine learning models in production environments, focusing on performance optimization and cost efficiency.
+                    </p>
+                    <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors">
+                        Read More <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                    </a>
+                </article>
+
+                <article class="bg-white p-8 rounded-xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-sm bg-green-100 text-green-700 px-3 py-1 rounded-full">AI Ethics</span>
+                        <span class="text-sm text-slate-500">February 2025</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-900 mb-3 hover:text-blue-700 transition-colors cursor-pointer">
+                        Building AI That Enhances Rather Than Replaces
+                    </h3>
+                    <p class="text-slate-600 mb-4">
+                        Exploring the philosophy of human-centered AI development and why the future lies in augmentation, not automation.
+                    </p>
+                    <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors">
+                        Read More <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                    </a>
+                </article>
+
+                <article class="bg-white p-8 rounded-xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-sm bg-purple-100 text-purple-700 px-3 py-1 rounded-full">Research</span>
+                        <span class="text-sm text-slate-500">January 2025</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-900 mb-3 hover:text-blue-700 transition-colors cursor-pointer">
+                        Active Learning with Monte-Carlo: A Practical Approach
+                    </h3>
+                    <p class="text-slate-600 mb-4">
+                        Deep dive into reinforcement learning strategies and their applications in real-world scenarios with limited data.
+                    </p>
+                    <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors">
+                        Read More <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                    </a>
+                </article>
+
+                <article class="bg-white p-8 rounded-xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="text-sm bg-orange-100 text-orange-700 px-3 py-1 rounded-full">Building Journey</span>
+                        <span class="text-sm text-slate-500">December 2024</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-900 mb-3 hover:text-blue-700 transition-colors cursor-pointer">
+                        From Research to Product: Bridging the AI Gap
+                    </h3>
+                    <p class="text-slate-600 mb-4">
+                        Reflections on the challenges and opportunities in translating cutting-edge AI research into practical applications.
+                    </p>
+                    <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors">
+                        Read More <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                    </a>
+                </article>
+            </div>
+
+            <div class="text-center">
+                <a href="#" class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center">
+                    View All Posts
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-4 bg-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl lg:text-4xl font-bold text-blue-900 mb-8">Let's Connect</h2>
+            <p class="text-lg text-slate-600 mb-12">
+                Always interested in connecting with fellow builders, researchers, and anyone passionate about responsible AI development.
+            </p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <a href="mailto:dvir@dvirlafer.com" class="flex flex-col items-center p-6 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                    <i data-lucide="mail" class="w-8 h-8 text-blue-600 mb-3"></i>
+                    <span class="font-semibold text-blue-900">Email</span>
+                    <span class="text-blue-700 text-sm">dvir@dvirlafer.com</span>
+                </a>
+                
+                <a href="https://linkedin.com/in/dvirlafer" class="flex flex-col items-center p-6 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                    <i data-lucide="linkedin" class="w-8 h-8 text-blue-600 mb-3"></i>
+                    <span class="font-semibold text-blue-900">LinkedIn</span>
+                    <span class="text-blue-700 text-sm">Connect professionally</span>
+                </a>
+                
+                <a href="https://github.com/dvirla" class="flex flex-col items-center p-6 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors">
+                    <i data-lucide="github" class="w-8 h-8 text-blue-600 mb-3"></i>
+                    <span class="font-semibold text-blue-900">GitHub</span>
+                    <span class="text-blue-700 text-sm">View my code</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-4 bg-blue-900 text-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <p class="text-blue-200">
+                © 2025 Dvir Lafer. Building AI for human wellbeing.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking on links
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
